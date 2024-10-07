@@ -19,6 +19,20 @@ public class Diamond {
         }
         System.out.println();
       }
+      
+      numberOfSpaces = 1;
+      for(int bottomRows= enteredDiamondSize-1; bottomRows >= 1; bottomRows--){
+        for(int spaceindex = 0; spaceindex <= numberOfSpaces;  spaceindex++){
+          System.out.print(" ");
+        }
+
+        numberOfSpaces++;
+        
+        for(int symbolIndex=enteredDiamondSize; symbolIndex < 2*bottomRows-1; symbolIndex++){
+          System.out.print("*");
+        }
+        System.out.println();
+      }
     }
   }
 }
