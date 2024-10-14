@@ -4,6 +4,7 @@ public class Diamond {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     int enteredDiamondSize, remainderDiamondSize, numberOfSpaces,starCount;
+    System.out.print("Enter odd or even number for size of diamond: ");
     enteredDiamondSize = input.nextInt();
     remainderDiamondSize = enteredDiamondSize % 2;
     starCount=1;
