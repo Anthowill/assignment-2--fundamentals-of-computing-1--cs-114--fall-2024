@@ -56,7 +56,7 @@ public class Diamond {
         }
 
         System.out.println();
-        
+
         if(starCount == 1){
           starCount +=1;
         }
@@ -81,6 +81,7 @@ public class Diamond {
         for(int spaceindex = -2; spaceindex<numberOfSpaces; spaceindex++){
           System.out.print(" ");
         }
+
         for(int symbolIndex=2; symbolIndex < starCount; symbolIndex++){
           System.out.print("* ");
         }
